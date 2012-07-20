@@ -1,4 +1,10 @@
 DemoApp::Application.routes.draw do
+  get "static/about"
+
+  get "static/home"
+
+  get "static/help"
+
   resources :microposts
 
   resources :users
